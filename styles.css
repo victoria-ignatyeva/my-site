@@ -219,13 +219,18 @@ a {
   visibility: hidden;
   white-space: pre;
 }
-.typewriter-text {
+.typewriter-line {
   position: absolute;
   inset: 0;
+  display: inline-flex;
+  align-items: center;
+  white-space: pre;
+}
+.typewriter-text {
   white-space: pre;
 }
 .typewriter-caret {
-  margin-left: 0.25rem;
+  margin-left: 0.12em;
   display: inline-block;
   width: 0.08em;
   height: 0.9em;
